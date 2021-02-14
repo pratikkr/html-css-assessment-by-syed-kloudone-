@@ -1,0 +1,497 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+.first-section{
+    background-color: #A020F0;
+    width: 100%;
+}
+#logo{
+    float: left;
+    color: red;
+    padding-left: 5%;
+    font-weight: bold;
+    margin: 0%;
+}
+.fa-bars{
+    display: none;
+    visibility: hidden;
+    align-self: flex-end;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    /* padding-left: 15%; */
+    padding-top: 5%;
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 15%;
+}
+.nav li{ 
+    padding: 15px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.input{
+    padding-left: 15px;
+    border-radius: 150px;
+    border: none;
+    width: 250px;
+    height: 30px;
+}
+.button{
+    border-radius: 150px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+} 
+.button-nav{
+    color: rgb(189, 31, 70);
+}
+.button-mob-view{
+    visibility: hidden;
+}
+.first-section-img{
+    display: inline-flex;
+    flex-direction: row;
+}
+.mob-view{
+    /* display: none; */
+    visibility: hidden;
+    margin-top: 0%;
+}
+#image{
+    width: 50%;
+}
+.first-p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    padding-top: 10%;
+}
+.first-span{
+    display: inline;
+    font-weight: bold;
+    font-size: 45px;
+}
+.first-button-body{
+    color:rgb(126, 226, 233);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 15%;
+    width: 200px;
+    height: 40px;
+}
+
+.second-section{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-section-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+.fa-utensils-alt{
+    color: rgb(236, 75, 169);
+    border-radius: 10px;
+}
+.second-section-container div{
+    /* margin-right: 15px; */
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-right: 25px;
+    padding-top: 10%;
+    font-size: 20px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.third-section{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.button-body{
+    margin-top: 5%;
+    margin-left: 43%;
+    margin-right: 43%;
+    background-color: rgb(106, 182, 218);
+    color: white;
+    font-size:20px;
+}
+.third-section-image{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.fourth-section{
+    text-align: center;
+    margin-top: 7%;
+    background-color: #A020F0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.input-fourth{
+    margin-left: 42%;
+}
+.button-fourth-section{
+    background-color: rgb(209, 39, 124);
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 270px;
+    margin-left: 42%;
+}
+.fifth-section{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fifth-section-top{
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10%; */
+}
+
+.fifth-section-container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    text-align: justify;
+    grid-template-rows: auto auto;
+    /* padding-right: 5px; */
+    margin-left: 30%;
+    
+}
+.fifth-section-container div{
+    margin: 5%;
+}
+
+.sixth-section{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+}
+.pricing-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+.pricing-section-row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    /* text-align: justify; */
+    
+}
+.pricing-section-row div{
+    margin-top: 10%;
+    margin-right: 5%;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-price{
+    padding-right: 10px;
+    background-color: rgb(71, 164, 207);
+    color: white;
+}
+.pricing-buiseness-div:hover{
+    background-color: #A020F0;
+    color: white;
+}
+
+.contact-section{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(9, 9, 78);
+    color: white;
+}
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.form{
+    border: 1px solid lightgray;
+    height: 40%;
+    width: 25%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+.input-form{
+    padding-top: 25px;
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right:15px ;
+    height: 10px;
+    text-align: left;
+    
+}
+.form-button{
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 105px;
+    margin-bottom: 20px;
+}
+.message{
+    height: 70px;
+    border-radius: 0%;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 5%;
+}
+.fa-map-marker{
+    color: rgb(175, 27, 101);
+    padding-right: 10px;
+    font-size: 30px;
+}
+.fa-mobile{
+    color: rgb(175, 27, 101);
+    font-size: 20px;
+    padding-right: 10px;
+}
+.fa-envelope{
+    color:rgb(175, 27, 101);
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.fab{
+    font-size: 40px;
+    color: rgb(175, 27, 101);
+    margin: 10px;
+}
+
+.social-media-icon{
+    padding-right: 80px;
+}
+
+.last-section{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10%; */
+}
+.last-section div{
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+.map-image-img{
+    border-radius: 10px; 
+    width:400px; 
+    height: 200px;
+}
+
+/* for mobile  */
+
+@media (max-width:400px){
+    .first-section{
+    background-color: #A020F0;
+    width: 100%;
+}
+.first-section-img{
+    display: inline-flex;
+    flex-direction: row;
+    width: 175%;
+}
+.first-section-img p{
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+.input{
+    width: 150px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.toggle{
+    display: none;
+}
+.nav li{
+    display: none;
+}
+.toggleshow{
+    display: flex;
+}
+.mob-view span{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.button-mob-view{
+    visibility: visible;
+    border-radius: 150px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color:rgb(126, 226, 233);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    width: 200px;
+    height: 40px;
+
+}
+.fa-bars{
+    visibility: visible;
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 45%;
+}
+.second-section{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-section-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.second-section-container div{
+    margin-bottom: 40px;
+    width: 200px;
+}
+
+.third-section{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.button-body{
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-fourth {
+    margin-left: 20%;
+}
+.button-fourth-section{
+    margin-left: 20%;
+}
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fifth-section-container{
+    display: flex;
+    flex-direction: column;
+}
+.fifth-section-container div{
+    margin-right: 10%;
+}
+
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-section-row{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-buiseness-div:hover{
+    background-color: #A020F0;
+    color: white;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    width: 290px;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+}
+.map-image-img{
+    width: 90%;
+}
+
+.social-media-icon{
+    display: inline-block;
+}
