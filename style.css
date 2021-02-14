@@ -1,17 +1,30 @@
 body{
-    /* width: 100%; */
+    width: 100%;
     margin: 0%;
 }
 .first-section{
     background-color: #A020F0;
     width: 100%;
 }
+#logo{
+    float: left;
+    color: red;
+    padding-left: 5%;
+    font-weight: bold;
+    margin: 0%;
+}
+.fa-bars{
+    display: none;
+    visibility: hidden;
+    align-self: flex-end;
+}
 .nav{
     display: block;
     width: 100%;
     text-align: center;
-    padding-left: 15%;
+    /* padding-left: 15%; */
     padding-top: 5%;
+
 }
 .nav a{
     color: white;
@@ -59,6 +72,8 @@ body{
     font-weight: bolder;
     font-size: 15px;
     margin-top: 15%;
+    width: 200px;
+    height: 40px;
 }
 
 .second-section{
@@ -287,4 +302,154 @@ li{
     margin-left: 8%;
     margin-right: 5%;
     margin-bottom: 8%;
+}
+.map-image-img{
+    border-radius: 10px; 
+    width:400px; 
+    height: 200px;
+}
+
+/* for mobile  */
+
+@media (max-width:400px){
+    .first-section{
+    background-color: #A020F0;
+    width: 100%;
+}
+.first-section-img{
+    display: inline-flex;
+    flex-direction: row;
+    width: 175%;
+}
+.first-section-img p{
+    visibility: hidden;
+    margin-bottom: 20px;
+}
+.first-button-body{
+    visibility: visible;
+    margin-top: 55%;
+    padding-left: 0%;
+}
+#image{
+    width: 50%;
+}
+.fa-bars{
+    visibility: visible;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.toggle{
+    display: none;
+}
+.toggleshow{
+    display: flex;
+}
+.fa-bars{
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+.second-section{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second-section-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+.second-section-container div{
+    margin-bottom: 40px;
+    width: 200px;
+}
+
+.third-section{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.button-body{
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+}
+.input-fourth {
+    margin-left: 20%;
+}
+.button-fourth-section{
+    margin-left: 20%;
+}
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fifth-section-container{
+    display: flex;
+    flex-direction: column;
+}
+.fifth-section-container div{
+    margin-right: 10%;
+}
+
+.sixth-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-section-row{
+    display: flex;
+    flex-direction: column;
+}
+.pricing-buiseness-div:hover{
+    background-color: #A020F0;
+    color: white;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    width: 290px;
+}
+
+.last-section {
+    display: flex;
+    flex-direction: column;
+}
+.map-image-img{
+    width: 90%;
+}
+
+.social-media-icon{
+    display: inline-block;
 }
