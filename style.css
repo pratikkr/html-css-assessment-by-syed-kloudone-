@@ -19,12 +19,22 @@ body{
     align-self: flex-end;
 }
 .nav{
-    display: block;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     text-align: center;
     /* padding-left: 15%; */
     padding-top: 5%;
 
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 15%;
+}
+.nav li{ 
+    padding: 15px;
 }
 .nav a{
     color: white;
@@ -48,9 +58,17 @@ body{
 .button-nav{
     color: rgb(189, 31, 70);
 }
+.button-mob-view{
+    visibility: hidden;
+}
 .first-section-img{
     display: inline-flex;
     flex-direction: row;
+}
+.mob-view{
+    /* display: none; */
+    visibility: hidden;
+    margin-top: 0%;
 }
 #image{
     width: 50%;
@@ -90,6 +108,10 @@ body{
     flex-direction: row;
     margin-left: 25%;
     margin-right: 20%;
+}
+.fa-utensils-alt{
+    color: rgb(236, 75, 169);
+    border-radius: 10px;
 }
 .second-section-container div{
     /* margin-right: 15px; */
@@ -325,18 +347,10 @@ li{
     visibility: hidden;
     margin-bottom: 20px;
 }
-.first-button-body{
-    visibility: visible;
-    margin-top: 55%;
-    padding-left: 0%;
+.input{
+    width: 150px;
 }
-#image{
-    width: 50%;
-}
-.fa-bars{
-    visibility: visible;
-}
-nav{
+ul{
     display: flex;
     flex-direction: column;
     margin-left: 0;
@@ -344,14 +358,42 @@ nav{
 .toggle{
     display: none;
 }
+.nav li{
+    display: none;
+}
 .toggleshow{
     display: flex;
 }
+.mob-view span{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.button-mob-view{
+    visibility: visible;
+    border-radius: 150px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color:rgb(126, 226, 233);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    width: 200px;
+    height: 40px;
+
+}
 .fa-bars{
+    visibility: visible;
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
+    margin-left: 45%;
 }
 .second-section{
     margin-top: 10%;
