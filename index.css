@@ -3,7 +3,9 @@ body{
     margin: 0%;
 }
 .first-section{
-    background-color: #A020F0;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 #logo{
